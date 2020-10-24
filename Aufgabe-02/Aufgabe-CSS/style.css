@@ -2,6 +2,9 @@ body {
     background: url(bg.png);
     max-width: 800px;
     margin: 0 auto;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 #navbar {
@@ -22,7 +25,6 @@ li a {
     padding: 8px;
     background-color: black;
     color: white;
-    font-family: sans-serif;
 }
 
 li a:hover {
@@ -36,7 +38,6 @@ li a:hover {
 #Halbkreis {
     text-align: center;
     font-size: x-large;
-    font-family: sans-serif;
     background: darkred;
     color: lightgoldenrodyellow;
     width: 800px;
@@ -47,6 +48,10 @@ li a:hover {
 .headlines {
     text-shadow: black;
     color: darkred;
-    font-family: sans-serif;
     font-size: x-large;
+}
+
+b {
+    color: darkred;
+    text-align: center;
 }
