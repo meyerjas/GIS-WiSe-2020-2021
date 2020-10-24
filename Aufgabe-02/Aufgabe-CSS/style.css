@@ -45,6 +45,10 @@ li a:hover {
     border-radius: 0% 0% 100% 100%;
 }
 
+i:hover {
+    color: black;
+}
+
 .headlines {
     text-shadow: black;
     color: darkred;
@@ -54,4 +58,15 @@ li a:hover {
 b {
     color: darkred;
     text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+    font-size: small;
+    background: darkgray;
+    color: black;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
 }
